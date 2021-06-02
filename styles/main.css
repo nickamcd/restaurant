@@ -34,7 +34,6 @@ nav ul {
 
 nav ul li:hover {
   cursor: pointer;
-  background-color: aqua;
 }
 
 /* 
@@ -60,6 +59,43 @@ main {
 
 #description h2 {
   text-align: center;
+  font-size: 24px;
+  margin: 10px;
+}
+
+#description p {
+  margin: 20px;
+}
+
+/* 
+--------------------
+  Menu
+--------------------
+*/
+
+.menu-grid {
+  margin: 0 auto;
+  display: grid;
+  grid: repeat(4, 1fr) / repeat(4, 1fr);
+  grid-gap: 10px;
+  height: 1000px;
+  width: 1000px;
+  background-color: red;
+}
+
+.menu-grid .menu-item {
+  margin: auto;
+  height: 90%;
+  width: 90%;
+  background-color: aqua;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.item-title {
+  color: grey;
+  font-size: 20px;
+  border-bottom: 1px solid grey;
 }
 
 /* 
