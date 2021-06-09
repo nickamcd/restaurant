@@ -4,6 +4,7 @@ import menu from './menu';
 import about from './about';
 import footer from './footer';
 import clear from './clear';
+import findUs from './find_us';
 
 nav();
 footer();
@@ -25,4 +26,10 @@ let aboutTab = document.getElementById('about');
 aboutTab.onclick = () => {
   clear();
   about();
+};
+
+let findUsTab = document.getElementById('find-us');
+findUsTab.onclick = () => {
+  clear();
+  findUs();
 };
