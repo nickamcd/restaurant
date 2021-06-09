@@ -80,23 +80,32 @@ main {
   grid-gap: 10px;
   height: 1000px;
   width: 1000px;
-  background-color: red;
+  background-color: rgba(202, 110, 67, 0.603);
 }
 
 .menu-grid .menu-item {
   margin: auto;
   height: 90%;
   width: 90%;
-  background-color: aqua;
+  background-color: rgb(224, 206, 158);
   border: 1px solid grey;
+  color:rgb(71, 16, 16);
   border-radius: 5px;
 }
 
 .item-title {
-  color: grey;
+  color: rgb(0, 0, 0);
   font-size: 20px;
   border-bottom: 1px solid grey;
 }
+
+/* 
+--------------------
+  About
+--------------------
+*/
+
+
 
 /* 
 --------------------
